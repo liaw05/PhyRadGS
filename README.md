@@ -85,7 +85,7 @@ unzip v2.3.zip && pip install TIGRE-2.3/Python --no-build-isolation
 
 ## Dataset
 
-Download from [Google Drive](https://drive.google.com/drive/folders/1YZ3w87XrCNyjDRos6gkY8zgT5hESl-PN?usp=sharing).
+Download from [Google Drive]().
 
 ### Synthetic Fly-Scanning Dataset
 
