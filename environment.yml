@@ -1,0 +1,20 @@
+# Usage: micromamba create -f environment.yml
+name: xray_gaussian
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - uv
+  - cuda-version=12.9
+  - cuda-nvcc
+  - pytorch==2.10.0
+  - torchvision
+  - torchmetrics
+  - protobuf==6.31.1
+  - opencv
+  - libjpeg-turbo
+  - matplotlib
+  - open3d
+  - pyvista
+  - pip:
+    - -r requirements.txt

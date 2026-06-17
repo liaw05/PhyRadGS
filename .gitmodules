@@ -1,0 +1,12 @@
+[submodule "algorithms/submodules/simple-knn"]
+	path = algorithms/submodules/simple-knn
+	url = https://gitlab.inria.fr/bkerbl/simple-knn.git
+[submodule "algorithms/gsplat_xray/gsplat_xray/cuda/csrc/third_party/glm"]
+	path = algorithms/gsplat_xray/gsplat_xray/cuda/csrc/third_party/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "algorithms/r2_gaussian/xray-gaussian-rasterization-voxelization/third_party/glm"]
+	path = algorithms/r2_gaussian/xray-gaussian-rasterization-voxelization/third_party/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "algorithms/r2_gaussian_mr/xray-gaussian-rasterization-voxelization-mr/third_party/glm"]
+	path = algorithms/r2_gaussian_mr/xray-gaussian-rasterization-voxelization-mr/third_party/glm
+	url = https://github.com/g-truc/glm.git

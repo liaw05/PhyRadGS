@@ -1,0 +1,14 @@
+numpy
+plyfile
+tqdm
+tensorboardX
+pyyaml
+pydicom
+tifffile
+scikit-image
+nibabel
+SimpleITK
+Cython==0.29.36
+scipy
+plotly
+munch

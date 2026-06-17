@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Compiled CUDA extensions
+*.so
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment outputs
+output/
+
+# Datasets (large files)
+data/
+*.npy
+*.nii.gz
+*.zip
+*.tar.gz
+
+# Jupyter
+.ipynb_checkpoints/
