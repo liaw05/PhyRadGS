@@ -83,7 +83,21 @@ wget https://github.com/CERN/TIGRE/archive/refs/tags/v2.3.zip
 unzip v2.3.zip && pip install TIGRE-2.3/Python --no-build-isolation
 ```
 
+## Code Availability
+
+The following components will be released soon. The complete source is available at `/dataset/code/phyradgs-intern/algorithms`.
+
+- [ ] `algorithms/gsplat_xray` — X-ray Gaussian splatting rasterization (coming soon)
+- [ ] `algorithms/r2_gaussian` — R2-Gaussian backend (coming soon)
+- [ ] `algorithms/r2_gaussian_mr` — R2-Gaussian multi-resolution backend (coming soon)
+- [ ] `algorithms/submodules` — CUDA extensions: simple-knn, rasterization kernels (coming soon)
+- [ ] `scripts/` — Experiment runner and evaluation scripts (coming soon)
+- [ ] `config/` — Experiment configuration files (coming soon)
+- [ ] `data_generator/` — TIGRE-based synthetic & real data generation (coming soon)
+
 ## Dataset
+
+> **Note:** Dataset download links and data generation scripts will be updated in a future release.
 
 Download from [Google Drive]().
 
