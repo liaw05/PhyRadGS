@@ -1,0 +1,14 @@
+# Real phantom ball dataset, motion mode, r2_gaussian_mr renderer (32 views)
+# Extracted from run_r2.sh active configuration
+# recon_mode: motion, motion_equivalent, static
+
+renderer: r2_gaussian_mr
+recon_mode: motion_equivalent
+densify_grad_mode: grad_2D
+opacity_activation: softplus
+spatial_lr_scale: 1.0
+iterations: 20000
+test_iterations: [5000, 10000, 15000]
+gpu: 0
+num_rolling_shutter_frames: 8
+num_exposure_frames: 5

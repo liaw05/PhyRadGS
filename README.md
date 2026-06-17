@@ -85,15 +85,20 @@ unzip v2.3.zip && pip install TIGRE-2.3/Python --no-build-isolation
 
 ## Code Availability
 
-The following components will be released soon. The complete source is available at `/dataset/code/phyradgs-intern/algorithms`.
+The complete source is available at `/dataset/code/phyradgs-intern/algorithms`. Remaining components will be released soon.
 
-- [ ] `algorithms/gsplat_xray` — X-ray Gaussian splatting rasterization (coming soon)
-- [ ] `algorithms/r2_gaussian` — R2-Gaussian backend (coming soon)
-- [ ] `algorithms/r2_gaussian_mr` — R2-Gaussian multi-resolution backend (coming soon)
-- [ ] `algorithms/submodules` — CUDA extensions: simple-knn, rasterization kernels (coming soon)
+- [x] `README.md`, `LICENSE.md`, `assets/` — Documentation and assets
+- [x] `environment.yml`, `requirements.txt` — Environment setup
+- [x] `train.py`, `test.py`, `initialize_pcd.py` — Top-level training, testing, and initialization scripts
+- [x] `config/` — Experiment configuration files
 - [ ] `scripts/` — Experiment runner and evaluation scripts (coming soon)
-- [ ] `config/` — Experiment configuration files (coming soon)
-- [ ] `data_generator/` — TIGRE-based synthetic & real data generation (coming soon)
+- [ ] `data_generator/` — TIGRE-based synthetic generation (coming soon)
+- [x] `model/` — Gaussian model definition, initialization, and parameters
+- [x] `algorithms/r2_gaussian` — R2-Gaussian renderer and voxelizer backend
+- [ ] `algorithms/r2_gaussian_mr` — R2-Gaussian with asymmetric FOV (motion-ready) (coming soon)
+- [ ] `algorithms/gsplat_xray` — X-ray Gaussian splatting rasterization (coming soon)
+
+
 
 ## Dataset
 

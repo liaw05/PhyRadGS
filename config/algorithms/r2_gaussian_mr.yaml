@@ -1,0 +1,3 @@
+# r2_gaussian_mr algorithm default config
+# Uses CUDA rasterizer with asymmetric FOV (motion-ready)
+renderer: r2_gaussian_mr

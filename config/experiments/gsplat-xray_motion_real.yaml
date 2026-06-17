@@ -1,0 +1,24 @@
+# gsplat-xray renderer, motion mode
+renderer: gsplat-xray
+recon_mode: motion
+rs_axis: y
+num_exposure_frames: 5
+num_rolling_shutter_frames: 8
+real_data: true
+geo_idx: 0
+num_views: 32
+random_init: true
+densify_grad_mode: grad_3D
+opacity_activation: softplus
+spatial_lr_scale: 15.0
+add_sparse_regularization: true
+lambda_sparse: 0.01
+add_scale_regularization: true
+lambda_scale: 0.02
+iterations: 6000
+test_iterations: [1000, 3000]
+gpu: 0
+densify_from_iter: 200
+densify_until_iter: 5000
+tv_vol_size: 64
+densify_grad_threshold: 2.0e-5
